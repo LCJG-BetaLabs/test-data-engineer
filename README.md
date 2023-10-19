@@ -15,11 +15,11 @@ Welcome to the code test for the Data Engineer position!
 
 ## Scenario
 
-Please write code that can be run in Databricks and create workflows to fetch data from a MySQL database with the given table structure.
-  Save the data to Parquet files using Databricks and store the files in blob storage.
-  Additionally, create another workflow to read the Parquet files and load the data into tables in Databricks.
+Please write code that can be run in Databricks and create workflows to fetch data from a MySQL database with the given table structure.  
+Save the data to Parquet files using Databricks and store the files in blob storage.  
+Additionally, create another workflow to read the Parquet files and load the data into tables in Databricks.
   
-  Consider the following guidelines:
+Consider the following guidelines:
 
 1. Connect to the MySQL database using appropriate libraries or connectors available in Databricks.
 1. Write SQL queries to retrieve the required data from the MySQL database.
@@ -44,16 +44,16 @@ Table: Members
 - country (string) - Country where the member resides
 - registration_date (date) - Date when the member registered
 
-Script to generate data in the member table can be found in the file `generate_member_data.py`.
-  Please note that you'll need to install the faker library in your Databricks environment for this script to work.  
-  You can install it using the command: `!pip install faker`
+Script to generate data in the member table can be found in the file `generate_member_data.py`.  
+Please note that you'll need to install the faker library in your Databricks environment for this script to work.  
+You can install it using the command: `!pip install faker`  
 
-  Please provide the notebook code, along with an explanation of each step and function used, and appropriate diagrams to illustrate the architecture and components of the scenario described above.
-  Please include your considerations for scalability and data security in the given scenario.  
+Please provide the notebook code, along with an explanation of each step and function used, and appropriate diagrams to illustrate the architecture and components of the scenario described above.  
+Please include your considerations for scalability and data security in the given scenario.    
 
 ## Submission
 
-Please fork this repository as a private repository.
-  Invite __lcjg-betalabstech__ as a collaborator for submission.
-  Good luck!
+Please fork this repository as a private repository.  
+Invite __lcjg-betalabstech__ as a collaborator for submission.  
+Good luck!
 
