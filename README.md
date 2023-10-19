@@ -15,8 +15,9 @@ Welcome to the code test for the Data Engineer position!
 
 ## Scenario
 
-Please write a notebook in Databricks and set up a workflow to obtain data from a MySQL database with the sample table structure below, write the data to Parquet files using Databricks, and store the files in blob storage.
-  Additionally, you need to create another workflow that reads the Parquet files and loads the data into tables in Databricks.
+Please write code that can be run in Databricks and create workflows to fetch data from a MySQL database with the given table structure.
+  Save the data to Parquet files using Databricks and store the files in blob storage.
+  Additionally, create another workflow to read the Parquet files and load the data into tables in Databricks.
   
   Consider the following guidelines:
 
@@ -28,6 +29,8 @@ Please write a notebook in Databricks and set up a workflow to obtain data from 
 1. Create a workflow to automate the data extraction, transformation, and loading process, ensuring it runs at specified intervals or triggers.
 1. For the second workflow, read the Parquet files from blob storage into Databricks.
 1. Load the data from the Parquet files into the member table(s) in Databricks.
+
+## Data
 
 Table: Members
 
@@ -45,12 +48,12 @@ Script to generate data in the member table can be found in the file `generate_m
   Please note that you'll need to install the faker library in your Databricks environment for this script to work.  
   You can install it using the command: `!pip install faker`
 
-  Please provide the notebook code, along with an explanation of each step and function used, to extract the data from the MySQL database, write it to Parquet files, store the files in blob storage, and then read and load the data into tables in Databricks.  
-
+  Please provide the notebook code, along with an explanation of each step and function used, and appropriate diagrams to illustrate the architecture and components of the scenario described above.
   Please include your considerations for scalability and data security in the given scenario.  
 
 ## Submission
 
-Please fork this repository as a private repository and invite __lcjg-betalabstech__ as a collaborator for submission.  
-Good luck!
+Please fork this repository as a private repository.
+  Invite __lcjg-betalabstech__ as a collaborator for submission.
+  Good luck!
 
